@@ -1,8 +1,8 @@
 # azure-sso-ess
 
-Azure SSO Contents = elasticsearch.yml config settings
-App Federation Metadata Url = idp.metadata.path
-Azure AD Identifier = idp.entity_id
+Azure SSO Contents = elasticsearch.yml config settings \n
+App Federation Metadata Url = idp.metadata.path \n
+Azure AD Identifier = idp.entity_id 
 
 ## Role Mappings 
 ```
