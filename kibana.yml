@@ -1,0 +1,7 @@
+xpack.security.authc.providers:
+  saml.saml1:
+    order: 0
+    realm: saml-realm-es
+    description: "Log in with my SAML" 
+  basic.basic1:
+    order: 1
