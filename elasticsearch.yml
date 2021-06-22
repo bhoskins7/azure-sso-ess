@@ -8,8 +8,8 @@ xpack:
             order: 2 
             attributes.principal: "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" 
             attributes.groups: "http://schemas.microsoft.com/ws/2008/06/identity/claims/groups" 
-            idp.metadata.path: "https://login.microsoftonline.com/c388e933-deff-40c9-954b-25831dafece8/federationmetadata/2007-06/federationmetadata.xml?appid=47c3d56e-f3d2-4dc5-96b3-da4f6ca71cf9" 
-            idp.entity_id: "https://sts.windows.net/c388e933-deff-40c9-954b-25831dafece8/" 
-            sp.entity_id: "https://1f2968fbfd304054b903ca3311033f48.us-central1.gcp.cloud.es.io:9243/" 
-            sp.acs: "https://1f2968fbfd304054b903ca3311033f48.us-central1.gcp.cloud.es.io:9243/api/security/v1/saml"
-            sp.logout: "https://1f2968fbfd304054b903ca3311033f48.us-central1.gcp.cloud.es.io:9243/logout"
+            idp.metadata.path: "https://login.microsoftonline.com/c388e933-dedf-40c9-954b-239487wekj4234/federationmetadata/2007-06/federationmetadata.xml?appid=47c3d56e-f3d2-4dc5-96b3-2394873984734" 
+            idp.entity_id: "https://sts.windows.net/c388e933-dedf-40c9-954b-2394873495873/" 
+            sp.entity_id: "https://{CLUSTER_NAME}:9243/" 
+            sp.acs: "https://{CLUSTER_NAME}:9243/api/security/v1/saml"
+            sp.logout: "https://{CLUSTER_NAME}:9243/logout"
